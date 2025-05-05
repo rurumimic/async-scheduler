@@ -1,9 +1,10 @@
 # Async Scheduler
 
 **Async Scheduler** is a lightweight asynchronous task scheduler and runtime written in C.
+
 Inspired by Rust's `std::future`, `async/await`, and `tokio`-style runtimes, it demonstrates how to implement efficient asynchronous programming in a garbage collector–free environment.
 
-## ✨ Features
+## Features
 
 - **Manual implementation of Future and async/await**: Recreates Rust's Future trait and async/await semantics in C.
 - **Coroutine-based task system**: Stackless coroutine model for task scheduling.
